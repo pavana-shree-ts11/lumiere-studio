@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière Studio | Premium Beauty Parlor</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Reveal Your Natural <br><em>Radiance</em></h1>
+                <p class="hero-subtitle">Experience bespoke beauty treatments in a sanctuary designed to elevate your senses and renew your spirit.</p>
+                <div class="hero-actions">
+                    <a href="#book" class="btn btn-primary">Book an Appointment</a>
+                    <a href="#services" class="btn btn-text">Explore Services &rarr;</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-arch">
+                    <img src="assets/hero.jpg" alt="Lumière Studio serene spa environment" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image-wrapper" data-aos="fade-up" data-aos-duration="1200">
+                <div class="about-image-arch">
+                    <img src="assets/about.jpg" alt="Natural organic skincare products" class="about-img">
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Our <em>Philosophy</em></h2>
+                <div class="about-text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <p>At Lumière Studio, we believe that true beauty stems from a profound connection to nature and a commitment to inner harmony. Our sanctuary is designed to strip away the noise of the everyday, providing a space where your natural radiance can effortlessly emerge.</p>
+                    <p>Every treatment is a carefully orchestrated ritual, blending time-honored techniques with the finest botanical formulations. We don't just treat the surface; we nurture your well-being, leaving you restored, confident, and beautifully illuminated.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+                        </div>
+                        <span class="highlight-text">Certified Estheticians</span>
+                    </div>
+                    <div class="highlight-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-3.5 2-6.5 5.5-8.5C11.5 3.5 16 3.5 19 6c2.5 2.5 3 7 1.5 9.5C18.5 19 14.5 21 11 20z"/><path d="M11 20v-5"/><path d="M11 15a3 3 0 0 1 3-3"/></svg>
+                        </div>
+                        <span class="highlight-text">Organic Products</span>
+                    </div>
+                    <div class="highlight-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <span class="highlight-text">Personalized Consultations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="services-container" data-aos="fade-up" data-aos-duration="1200">
+            <h2 class="section-title text-center">Our <em>Services</em></h2>
+            
+            <div class="tabs-wrapper">
+                <ul class="tabs-menu">
+                    <li class="tab-item active" data-tab="hair">Hair</li>
+                    <li class="tab-item" data-tab="skin">Skin</li>
+                    <li class="tab-item" data-tab="nails">Nails</li>
+                    <li class="tab-item" data-tab="bridal">Bridal</li>
+                </ul>
+
+                <div class="tabs-content">
+                    <!-- Hair -->
+                    <div class="tab-pane active" id="tab-hair">
+                        <ul class="service-list">
+                            <li class="service-item">
+                                <span class="service-name">Signature Cut & Style</span>
+                                <span class="service-price">₹2,499</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Balayage & Gloss</span>
+                                <span class="service-price">₹6,999</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Botanical Scalp Treatment</span>
+                                <span class="service-price">₹3,299</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Keratin Smoothing</span>
+                                <span class="service-price">₹7,999</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Skin -->
+                    <div class="tab-pane" id="tab-skin">
+                        <ul class="service-list">
+                            <li class="service-item">
+                                <span class="service-name">Lumière Signature Facial</span>
+                                <span class="service-price">₹3,999</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Organic Peel</span>
+                                <span class="service-price">₹2,799</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Microdermabrasion</span>
+                                <span class="service-price">₹4,499</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">LED Light Therapy</span>
+                                <span class="service-price">₹1,899</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Nails -->
+                    <div class="tab-pane" id="tab-nails">
+                        <ul class="service-list">
+                            <li class="service-item">
+                                <span class="service-name">Spa Manicure</span>
+                                <span class="service-price">₹1,299</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Gel Manicure</span>
+                                <span class="service-price">₹1,599</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Luxury Pedicure</span>
+                                <span class="service-price">₹2,299</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Nail Art (per nail)</span>
+                                <span class="service-price">₹199</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Bridal -->
+                    <div class="tab-pane" id="tab-bridal">
+                        <ul class="service-list">
+                            <li class="service-item">
+                                <span class="service-name">Bridal Hair Trial</span>
+                                <span class="service-price">₹3,499</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Bridal Makeup Trial</span>
+                                <span class="service-price">₹3,499</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Wedding Day Hair</span>
+                                <span class="service-price">₹5,999</span>
+                            </li>
+                            <li class="service-item">
+                                <span class="service-name">Wedding Day Makeup</span>
+                                <span class="service-price">₹5,999</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="gallery-container" data-aos="fade-up" data-aos-duration="1200">
+            <h2 class="section-title text-center">Our <em>Gallery</em></h2>
+            
+            <div class="masonry-grid">
+                <div class="gallery-item portrait" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="gallery-arch">
+                        <img src="assets/gallery-portrait.jpg" alt="Spa Interior">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Serene Spaces</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item landscape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="gallery-arch">
+                        <img src="assets/gallery-landscape.jpg" alt="Styling Station">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Styling Stations</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item landscape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="gallery-arch">
+                        <img src="assets/gallery-landscape.jpg" alt="Treatment Room">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Treatment Rooms</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item portrait" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="gallery-arch">
+                        <img src="assets/gallery-portrait.jpg" alt="Botanical Ingredients">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Botanical Details</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 60px;">
+                <a href="#full-gallery" class="btn btn-primary">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="artists" id="artists">
+        <div class="artists-container">
+            <h2 class="section-title text-center" data-aos="fade-up">Meet Our <em>Artists</em></h2>
+            
+            <div class="artists-grid">
+                <!-- Artist 1 -->
+                <div class="artist-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">
+                    <div class="artist-image-arch">
+                        <img src="assets/artist.jpg" alt="Elena">
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Elena Rossi</h3>
+                        <span class="artist-specialty">Master Colorist</span>
+                        <a href="#book-elena" class="btn-text artist-book">Book with Elena</a>
+                    </div>
+                </div>
+
+                <!-- Artist 2 -->
+                <div class="artist-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="artist-image-arch">
+                        <img src="assets/artist.jpg" alt="Julian">
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Julian Vance</h3>
+                        <span class="artist-specialty">Bridal Specialist</span>
+                        <a href="#book-julian" class="btn-text artist-book">Book with Julian</a>
+                    </div>
+                </div>
+
+                <!-- Artist 3 -->
+                <div class="artist-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                    <div class="artist-image-arch">
+                        <img src="assets/artist.jpg" alt="Amara">
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Amara Okafor</h3>
+                        <span class="artist-specialty">Lead Esthetician</span>
+                        <a href="#book-amara" class="btn-text artist-book">Book with Amara</a>
+                    </div>
+                </div>
+
+                <!-- Artist 4 -->
+                <div class="artist-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                    <div class="artist-image-arch">
+                        <img src="assets/artist.jpg" alt="Chloe">
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Chloe Chen</h3>
+                        <span class="artist-specialty">Senior Stylist</span>
+                        <a href="#book-chloe" class="btn-text artist-book">Book with Chloe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container" data-aos="fade-up" data-aos-duration="1200">
+            <h2 class="section-title text-center">Client <em>Love</em></h2>
+            
+            <div class="testimonial-slider-wrapper">
+                <div class="testimonial-slides">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-stars">
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            "Lumière Studio completely transformed how I care for my skin. The serene sanctuary atmosphere and bespoke organic facial left me feeling radiant for weeks."
+                        </blockquote>
+                        <cite class="testimonial-author">— Sophia Laurent</cite>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            "Finding a master colorist who understands subtle, sun-kissed dimension is rare. Elena and the entire team at Lumière deliver perfection every single time."
+                        </blockquote>
+                        <cite class="testimonial-author">— Claire Westwood</cite>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            "From my bridal trial to the wedding morning, Julian made me feel like royalty. The calm elegance and attention to detail were unmatched."
+                        </blockquote>
+                        <cite class="testimonial-author">— Genevieve Dupont</cite>
+                    </div>
+                </div>
+
+                <!-- Dot Navigation -->
+                <div class="testimonial-dots">
+                    <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+                    <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+                    <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <div class="packages-container">
+            <h2 class="section-title text-center" data-aos="fade-up">Signature <em>Packages</em></h2>
+            
+            <div class="packages-grid">
+                <!-- Card 1: Essential -->
+                <div class="package-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">
+                    <div class="package-card-inner">
+                        <h3 class="package-name">Essential</h3>
+                        <p class="package-subtitle">A revitalizing touch for effortless everyday beauty.</p>
+                        <div class="package-price">₹4,999</div>
+                        <ul class="package-features">
+                            <li>Signature Haircut & Blowout</li>
+                            <li>Botanical Express Facial</li>
+                            <li>Classic Spa Manicure</li>
+                            <li>Personalized Skin Analysis</li>
+                        </ul>
+                        <a href="#book-essential" class="btn btn-outline-gold">Reserve Package</a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Signature (Elevated + Badge) -->
+                <div class="package-card featured" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                    <span class="package-badge">Most Loved</span>
+                    <div class="package-card-inner">
+                        <h3 class="package-name">Signature</h3>
+                        <p class="package-subtitle">Our ultimate head-to-toe renewal experience.</p>
+                        <div class="package-price">₹8,999</div>
+                        <ul class="package-features">
+                            <li>Balayage or Full Color & Styling</li>
+                            <li>Lumière Deep Hydration Facial</li>
+                            <li>Gel Spa Manicure & Pedicure</li>
+                            <li>Botanical Scalp & Neck Ritual</li>
+                            <li>Complimentary Skincare Kit</li>
+                        </ul>
+                        <a href="#book-signature" class="btn btn-primary">Reserve Package</a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Luxe -->
+                <div class="package-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                    <div class="package-card-inner">
+                        <h3 class="package-name">Luxe</h3>
+                        <p class="package-subtitle">An indulgent multi-hour sanctuary escape.</p>
+                        <div class="package-price">₹13,999</div>
+                        <ul class="package-features">
+                            <li>Custom Hair Transformation Ritual</li>
+                            <li>Microdermabrasion & LED Therapy</li>
+                            <li>Luxury Gel Pedicure & Hand Care</li>
+                            <li>Full Body Aroma Hydration Wrap</li>
+                            <li>Private Lounge & Refreshments</li>
+                        </ul>
+                        <a href="#book-luxe" class="btn btn-outline-gold">Reserve Package</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section (Dark Espresso) -->
+    <section class="booking-section" id="book">
+        <div class="booking-container" data-aos="fade-up" data-aos-duration="1200">
+            <div class="booking-card">
+                <h2 class="section-title text-center text-light">Book Your <em>Appointment</em></h2>
+                <p class="booking-subtitle">Step into serenity. Select your preferred service and schedule your visit.</p>
+                
+                <form class="booking-form" onsubmit="event.preventDefault(); alert('Thank you! Your appointment request has been received. We will contact you shortly.');">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="client-name">Full Name</label>
+                            <input type="text" id="client-name" placeholder="e.g. Genevieve Dupont" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="client-phone">Phone Number</label>
+                            <input type="tel" id="client-phone" placeholder="e.g. (555) 234-5678" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="client-service">Preferred Service</label>
+                            <select id="client-service" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="cut-style">Signature Cut & Style (₹2,499)</option>
+                                <option value="balayage">Balayage & Gloss (₹6,999)</option>
+                                <option value="facial">Lumière Signature Facial (₹3,999)</option>
+                                <option value="pedicure">Luxury Pedicure (₹2,299)</option>
+                                <option value="bridal">Bridal Hair & Makeup (₹11,999)</option>
+                                <option value="essential-package">The Essential Package (₹4,999)</option>
+                                <option value="signature-package">The Signature Package (₹8,999)</option>
+                                <option value="luxe-package">The Luxe Package (₹13,999)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="client-date">Preferred Date</label>
+                            <input type="date" id="client-date" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary">Confirm Reservation</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Arch Decorative Divider -->
+    <div class="arch-divider">
+        <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 60C360 20 1080 20 1440 60V60H0V60Z" fill="#1C1A17"/>
+        </svg>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo & Arch Motif -->
+                <div class="footer-col brand-col">
+                    <div class="footer-logo">
+                        <div class="arch-logo-mark">
+                            <span>L</span>
+                        </div>
+                        <span class="logo-text">Lumière <em>Studio</em></span>
+                    </div>
+                    <p class="footer-desc">A luxury beauty parlor sanctuary dedicated to botanical elegance and timeless radiance.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="#" aria-label="Pinterest">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.25 2.65 7.87 6.37 9.29-.09-.79-.17-2.01.04-2.87.19-.79 1.23-5.21 1.23-5.21s-.31-.63-.31-1.56c0-1.46.85-2.55 1.9-2.55.9 0 1.33.68 1.33 1.49 0 .9-.57 2.26-.87 3.51-.25 1.05.53 1.91 1.56 1.91 1.87 0 3.31-1.97 3.31-4.81 0-2.51-1.81-4.27-4.38-4.27-2.98 0-4.73 2.24-4.73 4.54 0 .9.35 1.87.78 2.39.09.11.1.2.07.31-.08.33-.26 1.05-.3 1.19-.05.21-.17.25-.39.15-1.46-.68-2.37-2.81-2.37-4.52 0-3.68 2.68-7.06 7.71-7.06 4.05 0 7.2 2.89 7.2 6.75 0 4.02-2.54 7.26-6.06 7.26-1.18 0-2.3-.61-2.68-1.34l-.73 2.78c-.26 1.01-.97 2.27-1.45 3.03C9.9 21.84 10.93 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Working Hours -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Hours</h4>
+                    <ul class="footer-list">
+                        <li><span>Mon – Fri</span> <span>9:00 AM – 8:00 PM</span></li>
+                        <li><span>Saturday</span> <span>9:00 AM – 6:00 PM</span></li>
+                        <li><span>Sunday</span> <span>10:00 AM – 5:00 PM</span></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact & Address -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Sanctuary</h4>
+                    <address class="footer-address">
+                        142 Artisan Way, Soho<br>
+                        New York, NY 10012<br><br>
+                        <a href="tel:+15553829102">+1 (555) 382-9102</a><br>
+                        <a href="mailto:hello@lumierestudio.com">hello@lumierestudio.com</a>
+                    </address>
+                </div>
+
+                <!-- Column 4: Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">Our Philosophy</a></li>
+                        <li><a href="#services">Services & Pricing</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#artists">Our Artists</a></li>
+                        <li><a href="#packages">Signature Packages</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lumière Studio. All Rights Reserved. Designed for timeless beauty.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
